@@ -1,0 +1,16 @@
+@font-face {
+  font-family: PokemonGB;
+  src: url(Pokemon_GB.ttf);
+}
+body {
+  font-family: PokemonGB;
+}
+h1{
+  font-family: PokemonGB;
+}
+h2{
+  font-family: PokemonGB;
+}
+body {
+  cursor: url(normal.cur);  
+}
