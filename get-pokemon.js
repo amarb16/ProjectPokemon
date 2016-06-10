@@ -1,4 +1,5 @@
 var url = 'https://pokeapi.co/api/v2/pokemon/?limit=6&offset=20'
+// var url = 'http://40ca7692.ngrok.io/api/v2/pokemon/'
 
 var myTemplate = $('.myTemplate')
   .detach()
