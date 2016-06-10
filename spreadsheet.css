@@ -2,10 +2,16 @@
   font-family: PokemonGB;
   src: url(Pokemon_GB.ttf);
 }
+html{
+    cursor: url('normal.png'), auto;
+}
 body {
   font-family: PokemonGB;
+  margin: 0px auto;
+  /*cursor: url('normal.png'), default;*/
+  padding: 0px;
 }
-h3{
+h1{
   font-family: PokemonGB;
 }
 h2{
@@ -13,4 +19,54 @@ h2{
 }
 .no {
    display:none;
+}
+.split-para {
+  display:block;
+  margin-left:200px;
+}
+.split-para span {
+  /*display:block;*/
+  float:right;
+  margin-right:100px;
+}
+
+#myPokemonList {
+  display:block;
+  float:left;
+  width:25%;
+  margin-left:200px;
+}
+
+#rivalPokemonList {
+  cursor: url('hover.png'), hover;
+  display:block;
+  float:right;
+  width:25%;
+  margin-right:100px;
+}
+
+#rivalPokemonDiv{
+  display:block;
+  float:right;
+  margin-right:300px;
+}
+#myPokemonDiv{
+  display:block;
+  float:left;
+  margin-left:300px;
+}
+.border{
+  height: 100%;
+  width: 100px;
+  background: #000000;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+.other{
+  height: 1024px;
+  width: 100px;
+  background: #000000;
+  margin: 0;
+  float: right;
 }
