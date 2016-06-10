@@ -29,6 +29,9 @@ h2{
   float:right;
   margin-right:100px;
 }
+a:hover{
+  cursor: url('hover.png'), auto;
+}
 
 #myPokemonList {
   display:block;
@@ -36,7 +39,6 @@ h2{
   width:25%;
   margin-left:200px;
 }
-
 #rivalPokemonList {
   cursor: url('hover.png'), hover;
   display:block;
